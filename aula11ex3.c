@@ -10,7 +10,7 @@ int main() {
   
   for (int i = 0; i < TAMANHO; i++) {
     printf("Digite a nota %d: ", i + 1);
-    scanf("%f", &notas[i]);
+    scanf("%lf", &notas[i]);
   }
 
   
