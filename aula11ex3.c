@@ -4,8 +4,8 @@
 #define TAMANHO 4
 
 int main() {
-  float notas[TAMANHO];
-  float total = 0.0;
+  double notas[TAMANHO];
+  double total = 0.0;
 
   
   for (int i = 0; i < TAMANHO; i++) {
